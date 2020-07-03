@@ -27,7 +27,7 @@ build:
         code: |
           export NODE_ENV='testing'
           echo "Image is Pushed..." 
-          export TAGNAME="1lab.user01"
+          export TAGNAME="1lab.user05"
           export PUSHED_IMAGE="${REPONAME}:${TAGNAME}"
           echo "image pushed is $PUSHED_IMAGE"
     - internal/docker-run:
